@@ -1,0 +1,6 @@
+{
+  "name": "Friday Voice Assistant",
+  "description": "Voice-first phone control and intelligent HUD command assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

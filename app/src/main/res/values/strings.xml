@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Friday Voice Assistant</string>
+    <string name="brand_name">FRIDAY</string>
+    <string name="brand_tagline">VOICE OS / 01</string>
+    <string name="system_online">SYSTEM ONLINE</string>
+    <string name="hero_title">At your\nservice.</string>
+    <string name="hero_subtitle">Voice control for the things your phone can do. Say the word and I’ll handle the rest.</string>
+    <string name="mic_listening">MIC ACTIVE / LISTENING FOR “HEY FRIDAY”</string>
+    <string name="mic_idle">TAP MIC TO SPEAK / “HEY FRIDAY”</string>
+    <string name="default_transcript">Say a command. Friday is listening.</string>
+    <string name="quick_commands">QUICK COMMANDS</string>
+    <string name="what_can_i_do">What can I do?</string>
+    <string name="audit_trail">AUDIT TRAIL</string>
+    <string name="recent_activity">Recent activity</string>
+    <string name="access_control">ACCESS CONTROL</string>
+    <string name="phone_permissions">Phone permissions</string>
+    <string name="user_controlled">USER CONTROLLED</string>
+    <string name="permissions_desc">Friday requests only what a command needs. Every access can be revoked from Android settings.</string>
+    <string name="footer_system">FRIDAY INTELLIGENCE SYSTEM</string>
+    <string name="footer_local">LOCAL VOICE PROCESSING</string>
+    <string name="footer_latency">LATENCY 12 MS</string>
+</resources>
