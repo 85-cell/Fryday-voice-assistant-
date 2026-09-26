@@ -1,0 +1,22 @@
+{
+  "name": "emergent",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.ts",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "tsc --noEmit",
+    "start": "node server.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "typescript": "~6.0.2",
+    "vite": "^8.2.2"
+  },
+  "dependencies": {
+    "@google/genai": "^2.22.0",
+    "express": "^5.2.1"
+  }
+}

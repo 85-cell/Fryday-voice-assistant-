@@ -1,6 +1,10 @@
 {
-  "name": "Friday Voice Assistant",
-  "description": "Voice-first phone control and intelligent HUD command assistant.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "name": "Friday Voice OS",
+  "description": "Voice-first assistant for phone control, Gemini AI conversational intelligence, and text-to-speech audio feedback",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

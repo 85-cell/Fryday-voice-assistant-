@@ -1,0 +1,23 @@
+{
+  "appId": "com.friday.voiceos",
+  "appName": "Friday Voice OS",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true
+  },
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": true,
+    "backgroundColor": "#040b0e"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1500,
+      "backgroundColor": "#040b0e",
+      "showSpinner": false
+    }
+  }
+}

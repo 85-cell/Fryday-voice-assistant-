@@ -1,0 +1,73 @@
+{
+  "id": "/",
+  "name": "Friday Voice OS",
+  "short_name": "Friday OS",
+  "description": "Voice-first assistant for phone control, Android application launcher, Gemini AI conversational intelligence, and text-to-speech audio feedback",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "window-controls-overlay", "minimal-ui"],
+  "orientation": "portrait",
+  "theme_color": "#061519",
+  "background_color": "#040b0e",
+  "categories": ["utilities", "productivity", "lifestyle"],
+  "lang": "en",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Voice Assistant",
+      "short_name": "Speak",
+      "description": "Launch voice command listening",
+      "url": "/?action=voice",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Phone & Dialer",
+      "short_name": "Phone",
+      "description": "Open dialer and contacts",
+      "url": "/?action=phone",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "App Launcher",
+      "short_name": "Apps",
+      "description": "Open Android application launcher",
+      "url": "/?action=apps",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Storage Cleaner",
+      "short_name": "Storage",
+      "description": "Reclaim device memory",
+      "url": "/?action=storage",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
